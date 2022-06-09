@@ -8,9 +8,13 @@ function App() {
 
   const [numberOfClicks,setNumberOfClicks] = useState(0);
 
-    const manageButton = () => {
+    const addButton = () => {
       setNumberOfClicks(numberOfClicks + 1);
   }
+
+  const substractButton = () => {
+    setNumberOfClicks(numberOfClicks - 1);
+}
 
   const resetCounter = () => {
       setNumberOfClicks (0);
@@ -20,9 +24,15 @@ function App() {
       <div className='principal-container'>
         <Counter numberOfClicks={numberOfClicks} />
         <Button
-          text = "sumar"
+
+          text = "+"
           isClickbutton = {true}
-          manageButton = {manageButton} />
+          manageButton = {addButton} />
+
+        <Button
+          text = "-"
+          isClickbutton = {true}
+          manageButton = {substractButton} />
 
         <Button
           text = "reset"

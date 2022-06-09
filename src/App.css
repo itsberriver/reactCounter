@@ -6,7 +6,11 @@
   
   html, 
   body {
-    background-color: #1b1b32;
+    background-image: url('./images/background_pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a2ccca;
+    margin: auto;
   }
   
   .App {
