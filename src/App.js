@@ -24,7 +24,7 @@ function App() {
       <div className='principal-container'>
         <Counter numberOfClicks={numberOfClicks} />
         <Button
-
+          className = 'add-Button'
           text = "+"
           isClickbutton = {true}
           manageButton = {addButton} />
@@ -35,6 +35,7 @@ function App() {
           manageButton = {substractButton} />
 
         <Button
+          className = 'substract-button'
           text = "reset"
           isClickbutton = {false}
           manageButton = {resetCounter} />
