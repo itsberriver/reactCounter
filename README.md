@@ -30,7 +30,6 @@ The application will automatically open in the browser configured by default on 
 - HTML
 - CSS
 - GitHub
-- Trello
 - Figma
 - VScode
 - React
