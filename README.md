@@ -1,4 +1,4 @@
-# REACT CLICK COUNTER
+# ⏱ REACT CLICK COUNTER ⏱
 
 ## The project in use
 
@@ -12,7 +12,7 @@ This application is part of one of the exercises created by[Estefania Cassingena
 ## Cloning repository
 If you want to see the project's code, you should first clone this repository, to do this, open the terminal in the file you want the project to be saved and run the following command:
 
-`$ [[https://github.com/itsberriver/filmCatalogue.git](https://github.com/itsberriver/reactCounter.git)](https://github.com/itsberriver/reactCounter.git)`
+`$ https://github.com/itsberriver/reactCounter.git`
 
 ## Installing Modules
 To install the necessary modules for the application, you must execute the command the following commands.
